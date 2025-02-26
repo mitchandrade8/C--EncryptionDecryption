@@ -4,12 +4,13 @@ using namespace std;
 
 int main() {
 
-    char plain = 'A';
-    char cipher;
+    char plainText = 'J';
+    char ciphertext;
+    char key = 'B';
 
-    cipher = plain + 2;
+    ciphertext = (plainText + key) % 26 + 65;
 
-    cout << cipher << endl;
+    cout << ciphertext << endl;
 
     return 0;
 }
