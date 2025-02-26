@@ -4,12 +4,10 @@
 using namespace std;
 
 int main() {
-
-    int a = 65;
-    int b = 67;
-
-    cout << (char) a << endl;
-    cout << (char) b << endl;
+        // capital A to capital Z
+    for (int i = 65; i <= 90; ++i) {
+        cout << (char) i << endl;
+    }
 
     return 0;
 }
